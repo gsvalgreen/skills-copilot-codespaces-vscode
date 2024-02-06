@@ -22,5 +22,5 @@ var server = http.createServer(function (req, res) {
 server.listen(8080);
 
 // Log a message to the console
-console.log('Server running at http://'); // Fix: Added closing quotation mark
+console.log('Server running at http://localhost:8080'); // Fix: Added closing quotation mark
 
